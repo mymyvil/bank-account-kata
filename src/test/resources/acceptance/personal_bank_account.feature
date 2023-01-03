@@ -1,6 +1,6 @@
 Feature: Bank account experience
 
-  Bank client want ot deposit withdraw money from his account and list account statement
+  Bank client want to deposit and withdraw money from his account and list statements
 
   Scenario Outline: Bank account deposit
     Given I am a client with id "<client_id>" and my account number is "<account_id>" with initial balance of "<initial_balance>" euro
